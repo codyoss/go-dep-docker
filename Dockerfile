@@ -1,4 +1,4 @@
-FROM golang:1.10.0-alpine3.7
+FROM golang:1.10.3-alpine3.7
 LABEL author="Cody Oss"
 
 ENV DEP_VERSION="0.4.1"
