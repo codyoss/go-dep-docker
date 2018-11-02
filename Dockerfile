@@ -1,7 +1,7 @@
-FROM golang:1.10.3-alpine3.7
+FROM golang:1.11.1-alpine3.8
 LABEL author="Cody Oss"
 
-ENV DEP_VERSION="0.4.1"
+ENV DEP_VERSION="0.5.0"
 
 RUN apk update; \
     apk add --no-cache \
